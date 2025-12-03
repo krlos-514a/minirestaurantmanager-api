@@ -5,9 +5,11 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "DishIngredient")
+@IdClass(DishIngredientId.class)
 public class DishIngredient {
     @Id
     private String dishId;
+    @Id
     private String ingredientId;
     private double quantityNeeded;
     private String ownerId;
