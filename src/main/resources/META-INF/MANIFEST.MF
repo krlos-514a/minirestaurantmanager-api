@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: sv.edu.ues.dam235.minirestaurantmanager.Minirestaurantmanage
+ rApplication
+

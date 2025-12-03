@@ -1,0 +1,29 @@
+
+# Set default behavior for line endings (important for cross-platform compatibility)
+* text=auto eol=lf
+/mvnw text eol=lf
+*.cmd text eol=crlf
+
+# Declare specific file types as text to ensure proper line ending handling
+*.java text
+*.xml text
+*.properties text
+*.yml text
+*.yaml text
+*.json text
+*.md text
+*.html text
+*.css text
+*.js text
+*.sql text
+
+# Declare binary files to prevent Git from attempting to diff them as text
+*.jar binary
+*.war binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
